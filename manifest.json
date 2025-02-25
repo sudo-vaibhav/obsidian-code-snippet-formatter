@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "code-snippet-formatter",
+	"name": "Code Snippet Formatter Plugin",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
+	"description": "Automatically formats code blocks in Markdown files on save using Unibeautify",
 	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"authorUrl": "https://github.com/sudomakes",
+	"fundingUrl": "https://github.com/sudomakes",
 	"isDesktopOnly": false
 }

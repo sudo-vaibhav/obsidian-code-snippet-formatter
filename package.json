@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-code-snippet-formatter",
 	"version": "1.0.0",
 	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
 	"main": "main.js",
@@ -13,6 +13,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
+		"@types/prettier": "^2.7.3",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
 		"builtin-modules": "3.3.0",
@@ -20,5 +21,9 @@
 		"obsidian": "latest",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"@prettier/plugin-python": "^0.0.0-development",
+		"prettier": "^2.8.8"
 	}
 }
