@@ -12,6 +12,9 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
+		"@semantic-release/commit-analyzer": "^13.0.1",
+		"@semantic-release/github": "^11.0.1",
+		"@semantic-release/release-notes-generator": "^14.0.3",
 		"@types/node": "^16.11.6",
 		"@types/prettier": "^2.7.3",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
@@ -25,5 +28,16 @@
 	"dependencies": {
 		"@prettier/plugin-python": "^0.0.0-development",
 		"prettier": "^2.8.8"
-	}
+	},
+	"plugins": [
+		"@semantic-release/commit-analyzer",
+		"@semantic-release/release-notes-generator",
+		[
+			"@semantic-release/npm",
+			{
+				"npmPublish": false
+			}
+		],
+		"@semantic-release/github"
+	]
 }
